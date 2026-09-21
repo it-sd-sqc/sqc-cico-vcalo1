@@ -61,4 +61,12 @@ Use `./build.sh` to build CiCo and `./run.sh` to run it if using the command lin
 ## Expected results
 * Should display "Developer" for the user name.
 
+# Module 4: Constrain developer card number length
+
+## Test steps
+1. Build and run CiCo.
+2. Enter 000000000 into the card number field.
+
+## Expected results
+* The card number field should only allow 8 digits and prevent the ninth digit from being entered. 
 
