@@ -227,6 +227,7 @@ public class Main {
 
     // Create our GUI.
     JFrame frame = new JFrame();
+    frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     frame.setMinimumSize(new Dimension(320, 240));
     frame.setPreferredSize(new Dimension(640, 480));
     frame.setMaximumSize(new Dimension(640, 480));
