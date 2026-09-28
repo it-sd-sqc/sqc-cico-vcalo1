@@ -70,3 +70,13 @@ Use `./build.sh` to build CiCo and `./run.sh` to run it if using the command lin
 ## Expected results
 * The card number field should only allow 8 digits and prevent the ninth digit from being entered. 
 
+## Module 5: Clean shutdown
+
+## Test steps
+1. Build and run CiCo.
+2. Close the CiCo window by using the X button.
+3. Observe the terminal.
+
+## Expected results
+* The CiCo window should close.
+* The application should terminate and return control to the terminal.
