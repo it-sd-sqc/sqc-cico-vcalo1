@@ -66,15 +66,8 @@ public class Main {
     }
   }
 
-/* module6 commented out for update button removal
-  // Lookup the card information after button press ///////////////////////////
-  public static class Update implements ActionListener {
-    public void actionPerformed(ActionEvent evt) {
-      Main.processCard();
-    }
-  }
+  // module6 removed update actionListener
 
-*/
 
   // Revert to the main panel after a button press ////////////////////////////
   public static class Handler implements ActionListener {
@@ -268,13 +261,8 @@ public class Main {
     fieldNumber.setForeground(Color.magenta);
     panelMain.add(fieldNumber);
 
-    /* module6 commented out for update button removal
-    JButton updateButton = new JButton("Update");
-    updateButton.setAlignmentX(JComponent.CENTER_ALIGNMENT);
-    updateButton.addActionListener(new Update());
-    updateButton.setForeground(Color.green);
-    panelMain.add(updateButton);
-    */
+    // module6 removed update button
+
 
     panelMain.add(Box.createVerticalGlue());
 
