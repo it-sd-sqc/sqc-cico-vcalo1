@@ -80,3 +80,13 @@ Use `./build.sh` to build CiCo and `./run.sh` to run it if using the command lin
 ## Expected results
 * The CiCo window should close.
 * The application should terminate and return control to the terminal.
+
+# Module 6: Automatically submit card number
+
+## Test steps
+1. Build and run CiCo.
+2. Enter 00000000 into the card number field without pressing Enter or clicking Update.
+
+## Expected results
+* The card number should automatically submit after the eighth digit is entered.
+* The status panel should appear without pressing Enter or clicking Update.
