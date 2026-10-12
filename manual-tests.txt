@@ -80,3 +80,14 @@ Use `./build.sh` to build CiCo and `./run.sh` to run it if using the command lin
 ## Expected results
 * The CiCo window should close.
 * The application should terminate and return control to the terminal.
+
+
+## Module 6: Auto submit
+
+## Test steps
+1. Build and run CiCo.
+2. Enter 00000000
+
+## Expected results
+* User number will be automatically accepted
+* User check-in/check-out status will display
